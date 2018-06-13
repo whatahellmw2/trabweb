@@ -4,16 +4,13 @@ html{
 
 body{
 	background-color:hsl(0, 0%, 96%);
+	margin: 0;
 }
 
 header{
-	height:70px;	
-}
-
-hr { 
-      background-color:#DCDCDC;
-      height: 1px;
-	  border-color:#DCDCDC;
+	height:70px;
+	margin: 0;	
+	box-shadow:  0 2px 2px #444444;
 }
 
 .conteudo_noticia p:hover{
@@ -22,10 +19,29 @@ hr {
 
 .menu{
 	float:left;
-	height:40%;
-	margin: 10px 
-	
+	height:50px;
+	margin: 10px; 
+	cursor: pointer;
 }
+
+.menu_oculto{
+	position: absolute;
+	top: 70px;
+	background-color: #1F1F1F;
+	width: 200px;
+	display: none;
+}
+
+.menu_oculto ul{
+	padding: 10px;
+}
+
+.menu_oculto ul li{
+	color: #ffffff;
+	padding: 10px 0;
+	border-bottom: 2px solid #ffffff;
+}
+
 .img_icone{
 	height:50px;
 	margin: 10px 5%;
@@ -40,7 +56,6 @@ ul{
 	float:left;
 	background-color:hsl(0, 0%, 96%);
 */	
-	display:none;
 	list-style:none;
 }
 /*

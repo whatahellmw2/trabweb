@@ -1,4 +1,3 @@
- $(".img_icone").click(function(){
-        $("ul").toggle(500);
-        
-    });
+ $(".menu").click(function(){
+        $(".menu_oculto").toggle(200);
+});
