@@ -16,6 +16,9 @@ hr {
 	  border-color:#DCDCDC;
 }
 
+.conteudo_noticia p:hover{
+	text-decoration: underline;
+}
 
 .menu{
 	float:left;
