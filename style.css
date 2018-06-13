@@ -60,6 +60,13 @@ img{
 	height:100%;
 	width:100%;
 }
+p{ 
+	position:relative;
+    color:white;
+	height:50px;
+    background-color:hsl(0, 0%, 0%,0.5);    
+    bottom:80px;
+}
 .programacao  p{
 	font-size:20px;
 	z-index:1;
