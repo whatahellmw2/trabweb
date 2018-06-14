@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>SportNews</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="slide.js" defer ></script>
 	<script src="script.js" defer></script> 
 </head>
 
@@ -23,104 +25,181 @@
 		<div class="menu_oculto">
 			<ul class="nav_diferente">
 				<a href=""><li>Home</li></a>
-				<a href=""><li> Esportes</li></a>
-				<a href=""><li>Noticias</li></a>
-				<a href=""><li>Ultimas Noticias</li></a>
+				<a href="#esporte"><li>Esportes</li></a>
+				<a href="#gerais"><li>Noticias</li></a>
+				<a href="#ultimas"><li>Ultimas Noticias</li></a>
 				<a href=""><li>Programação Tv</li></a>
 				<a href=""><li>Campeonatos</li></a>		
 			</ul>
 		</div>
 	</header>
+	
+	<main>
+		<section id="gerais" class="noticias_gerais">
+			<h2 class="titulo_secao">Noticias Gerais</h2>
+			<div class="slide">
+				<div class="seta next"><img src="right.png" alt=""></div>
+				<div class="seta prev"><img src="left.png" alt=""></div>
+				<div class="pagina">
+					<div class="noticia destaque">
+						<img src="imagens/peyongchang2018/SpeedSkating.jpeg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugiat assumenda facilis placeat. Doloribus praesentium quae ea sed fugiat autem aspernatur, dolor voluptate debitis inventore corporis quisquam vitae veritatis natus.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/peyongchang2018/FreestyleSkiing.jpeg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/peyongchang2018/Snowboard.jpeg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pagina">
+					<div class="noticia destaque">
+						<img src="imagens/peyongchang2018/steep-olympic-games.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugiat assumenda facilis placeat. Doloribus praesentium quae ea sed fugiat autem aspernatur, dolor voluptate debitis inventore corporis quisquam vitae veritatis natus.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/beneficios-do-esporte-adaptado-1080x608.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/peyongchang2018/apostas_nas_olimpiadas_de_inverno.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pagina">
+					<div class="noticia destaque">
+						<img src="imagens/flamengo.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugiat assumenda facilis placeat. Doloribus praesentium quae ea sed fugiat autem aspernatur, dolor voluptate debitis inventore corporis quisquam vitae veritatis natus.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/esportes-de-quadra1.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/id2_n_e048117a2a4c8725e442703e525b439b-730x400.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pagina">
+					<div class="noticia destaque">
+						<img src="imagens/esportes/volei.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempore quibusdam et maxime quia maiores aut reprehenderit, provident, placeat expedita ipsam inventore iusto delectus quam eius eos ipsum! Quibusdam, tempore.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/esportes/basquete.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+					<div class="noticia">
+						<img src="imagens/esportes/baseball.jpg" alt="">
+						<div class="texto">
+							<a href=""><h2>Titulo da notícia</h2></a>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	
-	
-	<main class="index">
-		
-		
-		<section class="noticias_gerais">
-			<h2>Noticias Gerais</h2>
-			<div class="noticia_pagina">
-				<a>
-					<div class="conteudo_noticia destaque">
-						<img src="imagens/peyongchang2018/Figure Skating.jpeg" alt="patinação artistica">
-						<p> texto interessante sobre as olimpiadas aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa</p>
-					</div>
-				</a>
-				<a>
-					<div class="conteudo_noticia">
-						<img src="imagens/russia2018/russialogo.jpg" alt="copa da russia">				
-						<p> texto interessante sobre a copa</p>
-					</div>
-				</a>
-				<a>
-					<div class="conteudo_noticia">
-						<img src="imagens/russia2018/russialogo.jpg" alt="copa da russia">				
-						<p> texto interessante sobre a copa</p>
-					</div>
-				</a>
-				<a>
-					<div class="conteudo_noticia">
-						<img src="imagens/peyongchang2018/Figure Skating.jpeg" alt="patinação artistica">
-						<p> texto interessante sobre as olimpiadas aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa</p>
-					</div>
-				</a>
-				<a>
-					<div class="conteudo_noticia">
-						<img src="imagens/russia2018/russialogo.jpg" alt="copa da russia">				
-						<p> texto interessante sobre a copa</p>
-					</div>
-				</a>				
 		</section>
 		
-		<section class="noticias_por_esporte">
-			<h2>Noticias de Esporte</h2>
-			<div class="noticia_pagina">
-				<div class="conteudo_noticia destaque">
-					<img src="imagens/esportes/baseball.jpg" alt="baseball">	
+		<section id="esporte" class="noticias_por_esporte">
+			<h2 class="titulo_secao">Noticias de Esporte</h2>
+			<div class="pagina">
+				<div class="noticia destaque">
+					<img src="imagens/esportes/volei.jpg" alt="">
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempore quibusdam et maxime quia maiores aut reprehenderit, provident, placeat expedita ipsam inventore iusto delectus quam eius eos ipsum! Quibusdam, tempore.</p>
+					</div>
 				</div>
-				<div class="conteudo_noticia">
-					<img src="imagens/esportes/basquete.jpg" alt="basquete">	
+				<div class="noticia">
+					<img src="imagens/esportes/basquete.jpg" alt="">
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+					</div>
 				</div>
-			<div class="conteudo_noticia">
-				<img src="imagens/esportes/baseball.jpg" alt="baseball">	
-				<p> texto da hora sobre baseball</p>
-			</div>
-			<div class="conteudo_noticia">
-				<img src="imagens/esportes/basquete.jpg" alt="basquete">	
-				<p> texto da hora sobre basquete</p>
+				<div class="noticia">
+					<img src="imagens/esportes/baseball.jpg" alt="">
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+					</div>
+				</div>
 			</div>
 		</section>		
 		
-		<section class="ultimas_noticias">
-			<h2>Ultimas Noticias</h2>
-			<div class="noticia_pagina destaque">
-				<div class="conteudo_noticia">
-					<img src="imagens/esportes/futebol.jpg" alt="futebol neymar">	
+		<section id="ultimas" class="ultimas_noticias">
+			<h2 class="titulo_secao">Ultimas Noticias</h2>
+			<div class="pagina">
+				<div class="noticia destaque">
+					<img src="imagens/esportes/futebol.jpg" alt="futebol neymar">
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempore quibusdam et maxime quia maiores aut reprehenderit, provident, placeat expedita ipsam inventore iusto delectus quam eius eos ipsum! Quibusdam, tempore.</p>
+					</div>	
 				</div>
 				
-				<div class="conteudo_noticia">
-					<img src="imagens/esportes/futebolamericano.jpg" alt="futebolamericano">	
+				<div class="noticia">
+					<img src="imagens/esportes/futebolamericano.jpg" alt="futebolamericano">
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+					</div>	
 				</div>
-			<div class="conteudo_noticia">
-					<img src="imagens/esportes/futebol.jpg" alt="futebol neymar">	
-					<p> texto da noticia recente</p>
-			</div>
-			
-			<div class="conteudo_noticia">
-				<img src="imagens/esportes/futebolamericano.jpg" alt="futebolamericano">	
-				<p> texto da noticia recente</p>
+				<div class="noticia">
+					<img src="imagens/peyongchang2018/FigureSkating.jpeg" alt="futebol neymar">	
+					<div class="texto">
+						<a href=""><h2>Titulo da notícia</h2></a>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 		
-		<section class="ultimos_videos">
+		<section id="videos" class="ultimos_videos">
 			<h2>Ultimos Videos</h2>
-			<div class="conteudo_noticia">
+			<div>
 				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ke0iusvydl8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
-			<div class="conteudo_noticia">
+			<div>
 				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Fea01mNsFPY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
+
 		</section>
-		
 	</main>
 </body>

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.slide{
+    display: grid;
+    grid-template-columns: 70px auto 70px;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 0;
+    margin: auto;
+}
+
+.pagina{
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.pagina:nth-of-type(1){
+    z-index: 2;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .texto_slide{
+    position: absolute;
+    top: 220px;
+    margin-right: 40px;
+    padding: 10vh 14vw;
+    animation-duration: 800ms;
+}
+
+.slide h1{
+    color: #ffffff;
+    font-size: 4em;
+    margin: 0;
+}
+
+.slide p{
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+
+.seta{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(28, 28, 28, 0.45);
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 3;
+    transition-duration: 100ms;
+    align-self: center;
+    justify-self: center;
+    grid-row: 1 / 2;
+}
+
+.seta:hover{
+    width: 53px;
+    height: 53px;
+    background-color: rgba(28, 28, 28, 0.4);
+    transition-duration: 100ms;
+}
+
+.next{
+    grid-column: 3 / 4;
+}
+
+.prev{
+    grid-column: 1 / 2;    
+}
+
+@media (max-width: 800px){
+    .slide h1{
+        font-size: 2em;
+    }
+    
+    .slide p{
+        font-size: 0.8em;
+    }
+}
+
+.fadein{
+    animation-name: fadein;
+    animation-duration: 300ms;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+
+    to{
+    }
+}
