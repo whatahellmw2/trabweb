@@ -29,7 +29,7 @@ header{
 	width: 220px;
 	display: none;
 	padding-bottom: 50px; 
-	z-index: 1;
+	z-index: 5;
 }
 
 .menu_oculto ul{
@@ -136,6 +136,10 @@ a{
 	
 }
 
+.noticia .texto p{
+	display: none;
+}
+
 h2{
 	font-size: 15px;
 }
@@ -185,5 +189,10 @@ p{
 	p{
 		font-size: 16px;
 	}
+
+	.noticia .texto p{
+		display: block;
+	}
+	
 	
 }
