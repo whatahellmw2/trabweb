@@ -1,6 +1,6 @@
-var paginas = document.querySelectorAll(".pagina");
-var next = document.querySelector(".next");
-var prev = document.querySelector(".prev");
+var paginas = $(".pagina");
+var next = $(".next");
+var prev = $(".prev");
 var pagina_atual = 0;
 var pagina_anterior = paginas.length-1;
 
