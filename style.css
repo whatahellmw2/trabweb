@@ -20,6 +20,7 @@ header{
 	width: 50px;
 	margin: 0 20px;
 	cursor: pointer;
+	opacity: 0;
 }
 
 .menu_oculto{
